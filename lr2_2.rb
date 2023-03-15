@@ -1,5 +1,5 @@
 def foobar(one, two)
-	if (one or two) == 20
+	if (one == 20 || two == 20)
 		puts two
 	else
 		puts one + two
